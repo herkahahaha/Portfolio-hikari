@@ -1,0 +1,86 @@
+* {
+    position: relative;
+}
+
+@media print {
+    .container {
+        width: auto;
+
+    }
+}
+
+
+#lightbox .modal-content {
+    display: inline;
+    text-align: center;
+    margin-left: 40px;
+}
+
+#lightbox .close {
+    opacity: 1;
+    position: absolute;
+    z-index: 1032;
+}
+
+.jumbotron {
+    height: 700px;
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
+    color: #fffdfd;
+
+}
+
+.jumbotron img {
+    width: 200px;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid rgb(187, 186, 186);
+}
+
+
+.about {
+    height: 100%;
+    margin-top: 30px;
+
+}
+
+
+section {
+    min-height: 600px;
+}
+
+section .container p {
+    text-align: justify;
+}
+
+.portfolio {
+    margin-top: 20px;
+    background-image: url(../img/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
+    color: #eeeeee;
+
+}
+
+.portfolio a img {
+    margin-left: auto;
+}
+
+.contact {
+    min-height: 500px;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #e5e74a;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #eeeeee;
+}
