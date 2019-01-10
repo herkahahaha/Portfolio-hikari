@@ -23,7 +23,7 @@
 }
 
 .jumbotron {
-    height: 700px;
+    height: auto;
     background-image: url(../img/bg.jpg);
     background-attachment: fixed;
     background-size: cover;
